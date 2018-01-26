@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B62EEFA5201874DB005A9733 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62EEFA4201874DB005A9733 /* Queue.swift */; };
+		B656DC22201830AF008B0C13 /* CodableEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B656DC21201830AF008B0C13 /* CodableEnums.swift */; };
 		B67CF1222017180E00E16C2D /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67CF1212017180E00E16C2D /* NotificationViewController.swift */; };
 		B67CF12420171B9600E16C2D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67CF12320171B9600E16C2D /* BaseViewController.swift */; };
 		B6808C852017138A00F66A9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6808C842017138A00F66A9D /* AppDelegate.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B62EEFA4201874DB005A9733 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		B656DC21201830AF008B0C13 /* CodableEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableEnums.swift; sourceTree = "<group>"; };
 		B67CF1212017180E00E16C2D /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		B67CF12320171B9600E16C2D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		B6808C812017138A00F66A9D /* SwiftThink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftThink.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +45,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B62EEFA6201874DF005A9733 /* Queue */ = {
+			isa = PBXGroup;
+			children = (
+				B62EEFA4201874DB005A9733 /* Queue.swift */,
+			);
+			path = Queue;
+			sourceTree = "<group>";
+		};
+		B656DC2020183085008B0C13 /* codable Enums */ = {
+			isa = PBXGroup;
+			children = (
+				B656DC21201830AF008B0C13 /* CodableEnums.swift */,
+			);
+			path = "codable Enums";
+			sourceTree = "<group>";
+		};
 		B6808C782017138A00F66A9D = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +80,8 @@
 		B6808C832017138A00F66A9D /* SwiftThink */ = {
 			isa = PBXGroup;
 			children = (
+				B62EEFA6201874DF005A9733 /* Queue */,
+				B656DC2020183085008B0C13 /* codable Enums */,
 				B6808C962017157300F66A9D /* wrapNotification */,
 				B6808C842017138A00F66A9D /* AppDelegate.swift */,
 				B67CF12320171B9600E16C2D /* BaseViewController.swift */,
@@ -154,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B67CF12420171B9600E16C2D /* BaseViewController.swift in Sources */,
+				B62EEFA5201874DB005A9733 /* Queue.swift in Sources */,
+				B656DC22201830AF008B0C13 /* CodableEnums.swift in Sources */,
 				B6808C98201716FA00F66A9D /* NotificationToken.swift in Sources */,
 				B6808C872017138A00F66A9D /* ViewController.swift in Sources */,
 				B67CF1222017180E00E16C2D /* NotificationViewController.swift in Sources */,
