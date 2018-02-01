@@ -49,6 +49,12 @@ for x in ["1", "2", "foo", "3"] {
     q.enqueue(x)
 }
 
-for s in q {
-    print(s, terminator: "")
+extension FIFOQueue: ExpressibleByArrayLiteral {
+    public init(arrayLiteral elements: Element...) {
+        left = elements.reversed()
+        right = []
+    }
 }
+
+let queue: FIFOQueue = [1, 2, 3]
+
