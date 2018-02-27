@@ -53,12 +53,20 @@
 			path = Queue;
 			sourceTree = "<group>";
 		};
-		B656DC2020183085008B0C13 /* codable Enums */ = {
+		B648902820453544000AEB1F /* Codable enum */ = {
 			isa = PBXGroup;
 			children = (
 				B656DC21201830AF008B0C13 /* CodableEnums.swift */,
 			);
-			path = "codable Enums";
+			path = "Codable enum";
+			sourceTree = "<group>";
+		};
+		B656DC2020183085008B0C13 /* Codable */ = {
+			isa = PBXGroup;
+			children = (
+				B648902820453544000AEB1F /* Codable enum */,
+			);
+			path = Codable;
 			sourceTree = "<group>";
 		};
 		B6808C782017138A00F66A9D = {
@@ -81,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				B62EEFA6201874DF005A9733 /* Queue */,
-				B656DC2020183085008B0C13 /* codable Enums */,
+				B656DC2020183085008B0C13 /* Codable */,
 				B6808C962017157300F66A9D /* wrapNotification */,
 				B6808C842017138A00F66A9D /* AppDelegate.swift */,
 				B67CF12320171B9600E16C2D /* BaseViewController.swift */,
@@ -113,6 +121,7 @@
 				B6808C7D2017138A00F66A9D /* Sources */,
 				B6808C7E2017138A00F66A9D /* Frameworks */,
 				B6808C7F2017138A00F66A9D /* Resources */,
+				B6C48E45203D08D1004AA985 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -169,6 +178,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B6C48E45203D08D1004AA985 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:|WARNING:\"\nERRORTAG=\"ERROR:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$|($ERRORTAG).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\"| perl -p -e \"s/($ERRORTAG)/ error: \\$1/\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B6808C7D2017138A00F66A9D /* Sources */ = {
