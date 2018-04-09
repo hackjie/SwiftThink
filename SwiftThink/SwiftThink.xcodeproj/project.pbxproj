@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B62EEFA5201874DB005A9733 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62EEFA4201874DB005A9733 /* Queue.swift */; };
+		B64AC5B320731E340025E9F5 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AC5B220731E340025E9F5 /* NetworkingViewController.swift */; };
 		B656DC22201830AF008B0C13 /* CodableEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B656DC21201830AF008B0C13 /* CodableEnums.swift */; };
 		B67CF1222017180E00E16C2D /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67CF1212017180E00E16C2D /* NotificationViewController.swift */; };
 		B67CF12420171B9600E16C2D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67CF12320171B9600E16C2D /* BaseViewController.swift */; };
@@ -17,10 +18,12 @@
 		B6808C8C2017138A00F66A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6808C8B2017138A00F66A9D /* Assets.xcassets */; };
 		B6808C8F2017138A00F66A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6808C8D2017138A00F66A9D /* LaunchScreen.storyboard */; };
 		B6808C98201716FA00F66A9D /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6808C97201716FA00F66A9D /* NotificationToken.swift */; };
+		B6A4F5FD207B3BDC002E9431 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B62EEFA4201874DB005A9733 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		B64AC5B220731E340025E9F5 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
 		B656DC21201830AF008B0C13 /* CodableEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableEnums.swift; sourceTree = "<group>"; };
 		B67CF1212017180E00E16C2D /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		B67CF12320171B9600E16C2D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -32,6 +35,7 @@
 		B6808C8E2017138A00F66A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6808C902017138A00F66A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6808C97201716FA00F66A9D /* NotificationToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
+		B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,22 @@
 			path = "Codable enum";
 			sourceTree = "<group>";
 		};
+		B64AC5B120731E100025E9F5 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B64AC5B420731F5E0025E9F5 /* Model */,
+				B64AC5B220731E340025E9F5 /* NetworkingViewController.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B64AC5B420731F5E0025E9F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B656DC2020183085008B0C13 /* Codable */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +108,8 @@
 		B6808C832017138A00F66A9D /* SwiftThink */ = {
 			isa = PBXGroup;
 			children = (
+				B6A4F5FB207B3BC0002E9431 /* UI */,
+				B64AC5B120731E100025E9F5 /* Networking */,
 				B62EEFA6201874DF005A9733 /* Queue */,
 				B656DC2020183085008B0C13 /* Codable */,
 				B6808C962017157300F66A9D /* wrapNotification */,
@@ -109,6 +131,14 @@
 				B67CF1212017180E00E16C2D /* NotificationViewController.swift */,
 			);
 			path = wrapNotification;
+			sourceTree = "<group>";
+		};
+		B6A4F5FB207B3BC0002E9431 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,10 +230,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B64AC5B320731E340025E9F5 /* NetworkingViewController.swift in Sources */,
 				B67CF12420171B9600E16C2D /* BaseViewController.swift in Sources */,
 				B62EEFA5201874DB005A9733 /* Queue.swift in Sources */,
 				B656DC22201830AF008B0C13 /* CodableEnums.swift in Sources */,
 				B6808C98201716FA00F66A9D /* NotificationToken.swift in Sources */,
+				B6A4F5FD207B3BDC002E9431 /* TextViewController.swift in Sources */,
 				B6808C872017138A00F66A9D /* ViewController.swift in Sources */,
 				B67CF1222017180E00E16C2D /* NotificationViewController.swift in Sources */,
 				B6808C852017138A00F66A9D /* AppDelegate.swift in Sources */,

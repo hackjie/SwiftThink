@@ -28,7 +28,7 @@ class ViewController: BaseViewController {
     }
 
     @objc func jump() {
-        let vc = NotificationViewController()
+        let vc = TextViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 
