@@ -28,10 +28,8 @@ class ViewController: BaseViewController {
     }
 
     @objc func jump() {
-        let vc = TextViewController()
+        let vc = NetworkingViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
-
-
 }
 
