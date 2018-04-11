@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		B62EEFA5201874DB005A9733 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62EEFA4201874DB005A9733 /* Queue.swift */; };
+		B63C4C39207DDB120015FC45 /* Delegated.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C4C38207DDB120015FC45 /* Delegated.swift */; };
+		B63C4C3B207DE15E0015FC45 /* DelegatedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C4C3A207DE15E0015FC45 /* DelegatedViewController.swift */; };
+		B63C4C3D207DE6550015FC45 /* DelegatedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B63C4C3C207DE6550015FC45 /* DelegatedViewModel.swift */; };
 		B64AC5B320731E340025E9F5 /* NetworkingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64AC5B220731E340025E9F5 /* NetworkingViewController.swift */; };
 		B656DC22201830AF008B0C13 /* CodableEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = B656DC21201830AF008B0C13 /* CodableEnums.swift */; };
 		B678A1C9207B558100DBC5B3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678A1C8207B558100DBC5B3 /* Person.swift */; };
@@ -25,6 +28,9 @@
 
 /* Begin PBXFileReference section */
 		B62EEFA4201874DB005A9733 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		B63C4C38207DDB120015FC45 /* Delegated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegated.swift; sourceTree = "<group>"; };
+		B63C4C3A207DE15E0015FC45 /* DelegatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatedViewController.swift; sourceTree = "<group>"; };
+		B63C4C3C207DE6550015FC45 /* DelegatedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatedViewModel.swift; sourceTree = "<group>"; };
 		B64AC5B220731E340025E9F5 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
 		B656DC21201830AF008B0C13 /* CodableEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableEnums.swift; sourceTree = "<group>"; };
 		B678A1C8207B558100DBC5B3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -59,6 +65,16 @@
 				B62EEFA4201874DB005A9733 /* Queue.swift */,
 			);
 			path = Queue;
+			sourceTree = "<group>";
+		};
+		B63C4C37207DDAEC0015FC45 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				B63C4C38207DDB120015FC45 /* Delegated.swift */,
+				B63C4C3A207DE15E0015FC45 /* DelegatedViewController.swift */,
+				B63C4C3C207DE6550015FC45 /* DelegatedViewModel.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 		B648902820453544000AEB1F /* Codable enum */ = {
@@ -114,6 +130,7 @@
 		B6808C832017138A00F66A9D /* SwiftThink */ = {
 			isa = PBXGroup;
 			children = (
+				B63C4C37207DDAEC0015FC45 /* Delegate */,
 				B6A4F5FB207B3BC0002E9431 /* UI */,
 				B64AC5B120731E100025E9F5 /* Networking */,
 				B62EEFA6201874DF005A9733 /* Queue */,
@@ -241,11 +258,14 @@
 				B64AC5B320731E340025E9F5 /* NetworkingViewController.swift in Sources */,
 				B67CF12420171B9600E16C2D /* BaseViewController.swift in Sources */,
 				B62EEFA5201874DB005A9733 /* Queue.swift in Sources */,
+				B63C4C3B207DE15E0015FC45 /* DelegatedViewController.swift in Sources */,
 				B656DC22201830AF008B0C13 /* CodableEnums.swift in Sources */,
 				B6808C98201716FA00F66A9D /* NotificationToken.swift in Sources */,
 				B6A4F5FD207B3BDC002E9431 /* TextViewController.swift in Sources */,
 				B6808C872017138A00F66A9D /* ViewController.swift in Sources */,
+				B63C4C39207DDB120015FC45 /* Delegated.swift in Sources */,
 				B67CF1222017180E00E16C2D /* NotificationViewController.swift in Sources */,
+				B63C4C3D207DE6550015FC45 /* DelegatedViewModel.swift in Sources */,
 				B6808C852017138A00F66A9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

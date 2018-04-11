@@ -76,5 +76,4 @@ class NetworkingViewController: BaseViewController {
             print(jsonModel)
         }
     }
-
 }

@@ -28,7 +28,7 @@ class ViewController: BaseViewController {
     }
 
     @objc func jump() {
-        let vc = NetworkingViewController()
+        let vc = DelegatedViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
