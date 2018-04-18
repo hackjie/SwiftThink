@@ -16,6 +16,7 @@
 		B678A1C9207B558100DBC5B3 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = B678A1C8207B558100DBC5B3 /* Person.swift */; };
 		B67CF1222017180E00E16C2D /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67CF1212017180E00E16C2D /* NotificationViewController.swift */; };
 		B67CF12420171B9600E16C2D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67CF12320171B9600E16C2D /* BaseViewController.swift */; };
+		B67F86AB20872F1F00ED7795 /* Repeater.swift in Sources */ = {isa = PBXBuildFile; fileRef = B67F86AA20872F1F00ED7795 /* Repeater.swift */; };
 		B6808C852017138A00F66A9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6808C842017138A00F66A9D /* AppDelegate.swift */; };
 		B6808C872017138A00F66A9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6808C862017138A00F66A9D /* ViewController.swift */; };
 		B6808C8A2017138A00F66A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6808C882017138A00F66A9D /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 		B678A1C8207B558100DBC5B3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		B67CF1212017180E00E16C2D /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		B67CF12320171B9600E16C2D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B67F86AA20872F1F00ED7795 /* Repeater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repeater.swift; sourceTree = "<group>"; };
 		B6808C812017138A00F66A9D /* SwiftThink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftThink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6808C842017138A00F66A9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6808C862017138A00F66A9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -111,6 +113,14 @@
 			path = Codable;
 			sourceTree = "<group>";
 		};
+		B67F86A920872F0900ED7795 /* Repeat */ = {
+			isa = PBXGroup;
+			children = (
+				B67F86AA20872F1F00ED7795 /* Repeater.swift */,
+			);
+			path = Repeat;
+			sourceTree = "<group>";
+		};
 		B6808C782017138A00F66A9D = {
 			isa = PBXGroup;
 			children = (
@@ -130,6 +140,7 @@
 		B6808C832017138A00F66A9D /* SwiftThink */ = {
 			isa = PBXGroup;
 			children = (
+				B67F86A920872F0900ED7795 /* Repeat */,
 				B63C4C37207DDAEC0015FC45 /* Delegate */,
 				B6A4F5FB207B3BC0002E9431 /* UI */,
 				B64AC5B120731E100025E9F5 /* Networking */,
@@ -266,6 +277,7 @@
 				B63C4C39207DDB120015FC45 /* Delegated.swift in Sources */,
 				B67CF1222017180E00E16C2D /* NotificationViewController.swift in Sources */,
 				B63C4C3D207DE6550015FC45 /* DelegatedViewModel.swift in Sources */,
+				B67F86AB20872F1F00ED7795 /* Repeater.swift in Sources */,
 				B6808C852017138A00F66A9D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
