@@ -19,12 +19,12 @@ extension String: LJURLNetworking {
     }
 }
 
-enum HTTPMethod: String {
+enum LJHTTPMethod: String {
     case GET, OPTIONS, HEAD, POST, PUT, PATCH, DELETE, TRACK, CONNECT
 }
 
 struct ConfigOptionals {
-    var httpMethod: HTTPMethod = .GET
+    var httpMethod: LJHTTPMethod = .GET
 }
 
 import UIKit
@@ -62,7 +62,7 @@ open class LJNetworking<T: Codable> {
         task.resume()
     }
 
-    func method(_ md: HTTPMethod) -> LJNetworking {
+    func method(_ md: LJHTTPMethod) -> LJNetworking {
         self.op.httpMethod = md
         return self
     }

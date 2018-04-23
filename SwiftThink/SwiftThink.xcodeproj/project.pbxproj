@@ -24,6 +24,10 @@
 		B6808C8F2017138A00F66A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6808C8D2017138A00F66A9D /* LaunchScreen.storyboard */; };
 		B6808C98201716FA00F66A9D /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6808C97201716FA00F66A9D /* NotificationToken.swift */; };
 		B6A4F5FD207B3BDC002E9431 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */; };
+		B6D0A4E3208D774D00BF4D90 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0A4E2208D774D00BF4D90 /* Alamofire.swift */; };
+		B6D0A4E6208D785300BF4D90 /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0A4E5208D785300BF4D90 /* AFError.swift */; };
+		B6D0A4E8208D7B6100BF4D90 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0A4E7208D7B6100BF4D90 /* Request.swift */; };
+		B6D0A4EA208D7C9300BF4D90 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0A4E9208D7C9300BF4D90 /* ParameterEncoding.swift */; };
 		B6EF9EFA207CAD7A00C50FB4 /* LJNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF9EF9207CAD7A00C50FB4 /* LJNetworking.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +51,10 @@
 		B6808C902017138A00F66A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6808C97201716FA00F66A9D /* NotificationToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
 		B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		B6D0A4E2208D774D00BF4D90 /* Alamofire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alamofire.swift; sourceTree = "<group>"; };
+		B6D0A4E5208D785300BF4D90 /* AFError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFError.swift; sourceTree = "<group>"; };
+		B6D0A4E7208D7B6100BF4D90 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		B6D0A4E9208D7C9300BF4D90 /* ParameterEncoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParameterEncoding.swift; sourceTree = "<group>"; };
 		B6EF9EF9207CAD7A00C50FB4 /* LJNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJNetworking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -140,6 +148,7 @@
 		B6808C832017138A00F66A9D /* SwiftThink */ = {
 			isa = PBXGroup;
 			children = (
+				B6D0A4E0208D76EE00BF4D90 /* AlamofireLearn */,
 				B67F86A920872F0900ED7795 /* Repeat */,
 				B63C4C37207DDAEC0015FC45 /* Delegate */,
 				B6A4F5FB207B3BC0002E9431 /* UI */,
@@ -173,6 +182,33 @@
 				B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		B6D0A4E0208D76EE00BF4D90 /* AlamofireLearn */ = {
+			isa = PBXGroup;
+			children = (
+				B6D0A4E1208D773900BF4D90 /* Source */,
+			);
+			path = AlamofireLearn;
+			sourceTree = "<group>";
+		};
+		B6D0A4E1208D773900BF4D90 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B6D0A4E2208D774D00BF4D90 /* Alamofire.swift */,
+				B6D0A4E4208D783F00BF4D90 /* Core */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B6D0A4E4208D783F00BF4D90 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B6D0A4E5208D785300BF4D90 /* AFError.swift */,
+				B6D0A4E7208D7B6100BF4D90 /* Request.swift */,
+				B6D0A4E9208D7C9300BF4D90 /* ParameterEncoding.swift */,
+			);
+			path = Core;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,15 +302,19 @@
 			files = (
 				B6EF9EFA207CAD7A00C50FB4 /* LJNetworking.swift in Sources */,
 				B678A1C9207B558100DBC5B3 /* Person.swift in Sources */,
+				B6D0A4E6208D785300BF4D90 /* AFError.swift in Sources */,
 				B64AC5B320731E340025E9F5 /* NetworkingViewController.swift in Sources */,
 				B67CF12420171B9600E16C2D /* BaseViewController.swift in Sources */,
 				B62EEFA5201874DB005A9733 /* Queue.swift in Sources */,
 				B63C4C3B207DE15E0015FC45 /* DelegatedViewController.swift in Sources */,
+				B6D0A4E8208D7B6100BF4D90 /* Request.swift in Sources */,
 				B656DC22201830AF008B0C13 /* CodableEnums.swift in Sources */,
 				B6808C98201716FA00F66A9D /* NotificationToken.swift in Sources */,
 				B6A4F5FD207B3BDC002E9431 /* TextViewController.swift in Sources */,
 				B6808C872017138A00F66A9D /* ViewController.swift in Sources */,
+				B6D0A4E3208D774D00BF4D90 /* Alamofire.swift in Sources */,
 				B63C4C39207DDB120015FC45 /* Delegated.swift in Sources */,
+				B6D0A4EA208D7C9300BF4D90 /* ParameterEncoding.swift in Sources */,
 				B67CF1222017180E00E16C2D /* NotificationViewController.swift in Sources */,
 				B63C4C3D207DE6550015FC45 /* DelegatedViewModel.swift in Sources */,
 				B67F86AB20872F1F00ED7795 /* Repeater.swift in Sources */,
