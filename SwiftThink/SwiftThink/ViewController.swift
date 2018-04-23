@@ -28,7 +28,7 @@ class ViewController: BaseViewController {
     }
 
     @objc func jump() {
-        let vc = DelegatedViewController()
+        let vc = AlamofireViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
