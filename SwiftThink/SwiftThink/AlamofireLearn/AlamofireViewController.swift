@@ -9,11 +9,11 @@
 import UIKit
 import Alamofire
 
+//http://zengwenzhi.com/category/alamofire/
 class AlamofireViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
 
         testOne()
     }
