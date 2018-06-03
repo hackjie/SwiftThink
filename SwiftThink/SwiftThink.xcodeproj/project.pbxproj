@@ -24,7 +24,6 @@
 		B6808C8F2017138A00F66A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6808C8D2017138A00F66A9D /* LaunchScreen.storyboard */; };
 		B6808C98201716FA00F66A9D /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6808C97201716FA00F66A9D /* NotificationToken.swift */; };
 		B6A4F5FD207B3BDC002E9431 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */; };
-		B6D0A50C208DC90000BF4D90 /* AlamofireViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0A50B208DC90000BF4D90 /* AlamofireViewController.swift */; };
 		B6EF9EFA207CAD7A00C50FB4 /* LJNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF9EF9207CAD7A00C50FB4 /* LJNetworking.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +60,6 @@
 		B6808C902017138A00F66A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6808C97201716FA00F66A9D /* NotificationToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
 		B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
-		B6D0A50B208DC90000BF4D90 /* AlamofireViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireViewController.swift; sourceTree = "<group>"; };
 		B6EF9EF9207CAD7A00C50FB4 /* LJNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJNetworking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,13 +74,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B619E75C20905ED200217265 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 		B62EEFA6201874DF005A9733 /* Queue */ = {
 			isa = PBXGroup;
 			children = (
@@ -162,7 +153,6 @@
 		B6808C832017138A00F66A9D /* SwiftThink */ = {
 			isa = PBXGroup;
 			children = (
-				B6D0A4E0208D76EE00BF4D90 /* AlamofireLearn */,
 				B67F86A920872F0900ED7795 /* Repeat */,
 				B63C4C37207DDAEC0015FC45 /* Delegate */,
 				B6A4F5FB207B3BC0002E9431 /* UI */,
@@ -196,15 +186,6 @@
 				B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		B6D0A4E0208D76EE00BF4D90 /* AlamofireLearn */ = {
-			isa = PBXGroup;
-			children = (
-				B619E75C20905ED200217265 /* Source */,
-				B6D0A50B208DC90000BF4D90 /* AlamofireViewController.swift */,
-			);
-			path = AlamofireLearn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,7 +285,6 @@
 				B62EEFA5201874DB005A9733 /* Queue.swift in Sources */,
 				B63C4C3B207DE15E0015FC45 /* DelegatedViewController.swift in Sources */,
 				B656DC22201830AF008B0C13 /* CodableEnums.swift in Sources */,
-				B6D0A50C208DC90000BF4D90 /* AlamofireViewController.swift in Sources */,
 				B6808C98201716FA00F66A9D /* NotificationToken.swift in Sources */,
 				B6A4F5FD207B3BDC002E9431 /* TextViewController.swift in Sources */,
 				B6808C872017138A00F66A9D /* ViewController.swift in Sources */,

@@ -21,6 +21,7 @@ class TextViewController: BaseViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    /// 正确的行间距
     func correntLineSpace() {
         let label1 = UILabel.init(frame: CGRect(x: 20, y: 100, width: 100, height: 200))
         label1.font = UIFont.systemFont(ofSize: 14)
@@ -50,5 +51,7 @@ class TextViewController: BaseViewController {
 
         view.addSubview(label2)
     }
+    
+    
 
 }
