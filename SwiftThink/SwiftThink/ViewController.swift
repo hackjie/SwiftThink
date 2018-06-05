@@ -28,7 +28,8 @@ class ViewController: BaseViewController {
     }
 
     @objc func jump() {
-
+        let vc = ThreadViewController()
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
 
