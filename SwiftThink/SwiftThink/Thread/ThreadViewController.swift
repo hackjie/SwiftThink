@@ -150,7 +150,7 @@ class ThreadViewController: BaseViewController {
     }
 
     func globalQueue() {
-        // GCD 提供一个主队列（线性队列）和 四个全局队列（并发队列）
+        // GCD 提供一个主队列（线性队列）和 多个全局队列（并发队列）
         let globalQueue = DispatchQueue.global() // qos: default
         globalQueue.async {
             print(Thread.current)
