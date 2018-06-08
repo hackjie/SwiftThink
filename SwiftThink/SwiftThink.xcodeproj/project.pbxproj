@@ -25,6 +25,7 @@
 		B6808C98201716FA00F66A9D /* NotificationToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6808C97201716FA00F66A9D /* NotificationToken.swift */; };
 		B68C595320C635FA00AD00A0 /* ThreadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68C595220C635FA00AD00A0 /* ThreadViewController.swift */; };
 		B6A4F5FD207B3BDC002E9431 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */; };
+		B6B77AE720CA21F80001F362 /* NLPDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B77AE620CA21F80001F362 /* NLPDemoViewController.swift */; };
 		B6EF9EFA207CAD7A00C50FB4 /* LJNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EF9EF9207CAD7A00C50FB4 /* LJNetworking.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +63,7 @@
 		B6808C97201716FA00F66A9D /* NotificationToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationToken.swift; sourceTree = "<group>"; };
 		B68C595220C635FA00AD00A0 /* ThreadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadViewController.swift; sourceTree = "<group>"; };
 		B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
+		B6B77AE620CA21F80001F362 /* NLPDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPDemoViewController.swift; sourceTree = "<group>"; };
 		B6EF9EF9207CAD7A00C50FB4 /* LJNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJNetworking.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +157,7 @@
 		B6808C832017138A00F66A9D /* SwiftThink */ = {
 			isa = PBXGroup;
 			children = (
+				B6B77AE520CA21CD0001F362 /* wwdc2018 */,
 				B68C595120C635DB00AD00A0 /* Thread */,
 				B67F86A920872F0900ED7795 /* Repeat */,
 				B63C4C37207DDAEC0015FC45 /* Delegate */,
@@ -197,6 +200,14 @@
 				B6A4F5FC207B3BDC002E9431 /* TextViewController.swift */,
 			);
 			path = UI;
+			sourceTree = "<group>";
+		};
+		B6B77AE520CA21CD0001F362 /* wwdc2018 */ = {
+			isa = PBXGroup;
+			children = (
+				B6B77AE620CA21F80001F362 /* NLPDemoViewController.swift */,
+			);
+			path = wwdc2018;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +302,7 @@
 			files = (
 				B6EF9EFA207CAD7A00C50FB4 /* LJNetworking.swift in Sources */,
 				B678A1C9207B558100DBC5B3 /* Person.swift in Sources */,
+				B6B77AE720CA21F80001F362 /* NLPDemoViewController.swift in Sources */,
 				B64AC5B320731E340025E9F5 /* NetworkingViewController.swift in Sources */,
 				B67CF12420171B9600E16C2D /* BaseViewController.swift in Sources */,
 				B62EEFA5201874DB005A9733 /* Queue.swift in Sources */,

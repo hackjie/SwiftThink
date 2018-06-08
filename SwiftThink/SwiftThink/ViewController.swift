@@ -28,7 +28,7 @@ class ViewController: BaseViewController {
     }
 
     @objc func jump() {
-        let vc = ThreadViewController()
+        let vc = NLPDemoViewController()
         self.navigationController?.pushViewController(vc, animated: true)
     }
 }
