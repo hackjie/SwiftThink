@@ -49,6 +49,7 @@
 		B63C4C3C207DE6550015FC45 /* DelegatedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatedViewModel.swift; sourceTree = "<group>"; };
 		B64AC5B220731E340025E9F5 /* NetworkingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingViewController.swift; sourceTree = "<group>"; };
 		B656DC21201830AF008B0C13 /* CodableEnums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableEnums.swift; sourceTree = "<group>"; };
+		B6786D3620EA28AE00C3FC4C /* Swift4-2.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Swift4-2.playground"; path = "../../Swift4-2.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B678A1C8207B558100DBC5B3 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		B67CF1212017180E00E16C2D /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		B67CF12320171B9600E16C2D /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +170,7 @@
 				B6808C842017138A00F66A9D /* AppDelegate.swift */,
 				B67CF12320171B9600E16C2D /* BaseViewController.swift */,
 				B6808C862017138A00F66A9D /* ViewController.swift */,
+				B6786D3620EA28AE00C3FC4C /* Swift4-2.playground */,
 				B6808C882017138A00F66A9D /* Main.storyboard */,
 				B6808C8B2017138A00F66A9D /* Assets.xcassets */,
 				B6808C8D2017138A00F66A9D /* LaunchScreen.storyboard */,
