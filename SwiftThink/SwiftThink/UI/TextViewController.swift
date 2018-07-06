@@ -29,7 +29,7 @@ class TextViewController: BaseViewController {
 
         let paragraphStyle = NSMutableParagraphStyle.init()
         paragraphStyle.lineSpacing = 10
-        let attributes = [NSAttributedStringKey.paragraphStyle: paragraphStyle]
+        let attributes = [NSAttributedString.Key.paragraphStyle: paragraphStyle]
         let text = """
                    这是个不可能的事情, 我不可能写出 Hello world
                    """
@@ -43,7 +43,7 @@ class TextViewController: BaseViewController {
 
         let paragraphStyle2 = NSMutableParagraphStyle.init()
         paragraphStyle2.lineSpacing = 10 - (label2.font.lineHeight - label2.font.pointSize)
-        let attributes2 = [NSAttributedStringKey.paragraphStyle: paragraphStyle2]
+        let attributes2 = [NSAttributedString.Key.paragraphStyle: paragraphStyle2]
         let text2 = """
                    这是个不可能的事情, 我不可能写出 Hello world
                    """

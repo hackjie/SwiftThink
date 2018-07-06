@@ -12,7 +12,6 @@ import UIKit
 // 从原理来看，死锁的原因是提交的 block 阻塞了队列，而队列阻塞后永远无法执行完 dispatch_sync()，可见这里完全和代码所在的线程无关。
 
 // 在主线程中执行的代码，也很可能不是运行在主队列中，反之则必然
-
 class ThreadViewController: BaseViewController {
 
     lazy var imageView: UIImageView = {
@@ -35,7 +34,7 @@ class ThreadViewController: BaseViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-//         simpleQueues()
+        simpleQueues()
 
 //         queuesWithQoS()
 
@@ -50,13 +49,14 @@ class ThreadViewController: BaseViewController {
 
 //         fetchImage()
 
-         useWorkItem()
+//         useWorkItem()
     }
 
 
 
     func simpleQueues() {
         let queue = DispatchQueue(label: "com.leoli")
+        print(queue.description)
         queue.sync {
             for i in 0..<10 {
                 print("😍 ", i)

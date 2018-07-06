@@ -17,7 +17,7 @@ class NotificationViewController: BaseViewController {
 
         // Do any additional setup after loading the view.
 
-        token = NotificationCenter.default.observe(name: Notification.Name.UIApplicationDidBecomeActive, object: nil, queue: nil, using: { [weak self] (note) in
+        token = NotificationCenter.default.observe(name: UIApplication.didBecomeActiveNotification, object: nil, queue: nil, using: { [weak self] (note) in
             self?.hello()
         })
     }
