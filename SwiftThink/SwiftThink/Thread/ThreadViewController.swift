@@ -34,9 +34,9 @@ class ThreadViewController: BaseViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
 
-        simpleQueues()
+//        simpleQueues()
 
-//         queuesWithQoS()
+         queuesWithQoS()
 
 //         concurrentQueues()
 //         if let queue = inactiveQueue {
@@ -56,8 +56,8 @@ class ThreadViewController: BaseViewController {
 
     func simpleQueues() {
         let queue = DispatchQueue(label: "com.leoli")
-        print(queue.description)
         queue.sync {
+            print(Thread.current)
             for i in 0..<10 {
                 print("😍 ", i)
             }
@@ -72,7 +72,7 @@ class ThreadViewController: BaseViewController {
 
     func queuesWithQoS() {
         let queue1 = DispatchQueue(label: "com.leoli.queue1", qos: DispatchQoS.userInitiated)
-        let queue2 = DispatchQueue(label: "com.leoli.queue2", qos: DispatchQoS.utility)
+        let queue2 = DispatchQueue(label: "com.leoli.queue2", qos: DispatchQoS.userInitiated)
 
         queue1.async {
             print(Thread.current)
@@ -86,23 +86,6 @@ class ThreadViewController: BaseViewController {
             for i in 100..<110 {
                 print("Ⓜ️", i)
             }
-            // 死锁
-//            queue2.sync {
-//                print("")
-//            }
-        }
-
-        print(Thread.current)
-
-
-//        DispatchQueue.main.sync {
-//            for i in 1000..<1010 {
-//                print("😎", i)
-//            }
-//        }
-
-        for i in 1000..<1010 {
-            print("😎", i)
         }
     }
 

@@ -43,6 +43,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B622877020EF621600A03DF4 /* GCD-Demo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "GCD-Demo.playground"; path = "../../../GCD-Demo.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B62EEFA4201874DB005A9733 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		B63C4C38207DDB120015FC45 /* Delegated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegated.swift; sourceTree = "<group>"; };
 		B63C4C3A207DE15E0015FC45 /* DelegatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatedViewController.swift; sourceTree = "<group>"; };
@@ -192,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				B68C595220C635FA00AD00A0 /* ThreadViewController.swift */,
+				B622877020EF621600A03DF4 /* GCD-Demo.playground */,
 			);
 			path = Thread;
 			sourceTree = "<group>";
