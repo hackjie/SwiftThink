@@ -44,6 +44,7 @@
 
 /* Begin PBXFileReference section */
 		B622877020EF621600A03DF4 /* GCD-Demo.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "GCD-Demo.playground"; path = "../../../GCD-Demo.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		B62D77B921193A0000E68AD0 /* namespace.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = namespace.playground; path = ../../../namespace.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B62EEFA4201874DB005A9733 /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 		B63C4C38207DDB120015FC45 /* Delegated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Delegated.swift; sourceTree = "<group>"; };
 		B63C4C3A207DE15E0015FC45 /* DelegatedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelegatedViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B62D77B62119391700E68AD0 /* Namespace */ = {
+			isa = PBXGroup;
+			children = (
+				B62D77B921193A0000E68AD0 /* namespace.playground */,
+			);
+			path = Namespace;
+			sourceTree = "<group>";
+		};
 		B62EEFA6201874DF005A9733 /* Queue */ = {
 			isa = PBXGroup;
 			children = (
@@ -159,6 +168,7 @@
 		B6808C832017138A00F66A9D /* SwiftThink */ = {
 			isa = PBXGroup;
 			children = (
+				B62D77B62119391700E68AD0 /* Namespace */,
 				B6B77AE520CA21CD0001F362 /* wwdc2018 */,
 				B68C595120C635DB00AD00A0 /* Thread */,
 				B67F86A920872F0900ED7795 /* Repeat */,
