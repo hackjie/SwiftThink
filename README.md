@@ -1,2 +1,3 @@
 # SwiftThink
-Try something interesting about swift
+
+关于 swift 一些尝试 demo
