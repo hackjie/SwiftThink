@@ -22,6 +22,7 @@
 		6A552DE7219A7B1B00B9E262 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A552DEA219A7B1B00B9E262 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A552DEC219A7B1B00B9E262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A552DF2219A7E2800B9E262 /* SortedSet.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SortedSet.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		6A552DDF219A7B1A00B9E262 /* Swift-集合类型优化 */ = {
 			isa = PBXGroup;
 			children = (
+				6A552DF2219A7E2800B9E262 /* SortedSet.playground */,
 				6A552DE0219A7B1A00B9E262 /* AppDelegate.swift */,
 				6A552DE2219A7B1A00B9E262 /* ViewController.swift */,
 				6A552DE4219A7B1A00B9E262 /* Main.storyboard */,
